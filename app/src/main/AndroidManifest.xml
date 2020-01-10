@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InputControlsActivity"></activity>
+        <activity android:name=".ToastyActivity"
+            android:label="Toasty"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".InputControlsActivity"
+            android:label="Input Controls" />
         <activity android:name=".TabActivity" />
         <activity
             android:name=".ShapeActivity"

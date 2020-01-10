@@ -27,8 +27,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Input Controls"
-        android:onClick="goToInputControls"
+        android:text="One onClick Method for Multiple Buttons"
+        android:onClick="goToMultipleButtonsActivity"
         android:layout_marginTop="@dimen/root_margin"
         android:background="@color/colorPrimary"
         android:textColor="@color/colorText"/>
@@ -36,8 +36,17 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="One onClick Method for Multiple Buttons"
-        android:onClick="goToMultipleButtonsActivity"
+        android:text="Toasty Library"
+        android:onClick="goToToastyActivity"
+        android:layout_marginTop="@dimen/root_margin"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Controls"
+        android:onClick="goToInputControls"
         android:layout_marginTop="@dimen/root_margin"
         android:background="@color/colorPrimary"
         android:textColor="@color/colorText"/>

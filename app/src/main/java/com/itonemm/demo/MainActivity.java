@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
         goToActivity(MultipleButtonsActivity.class);
     }
 
+    public void goToToastyActivity(View view) {
+        goToActivity(ToastyActivity.class);
+    }
+
     public void goToInputControls(View view) {
         goToActivity(InputControlsActivity.class);
     }
