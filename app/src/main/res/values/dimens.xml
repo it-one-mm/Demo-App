@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="root_margin">16dp</dimen>
+    <dimen name="view_margin">6dp</dimen>
+    <dimen name="input_margin">16dp</dimen>
+    <dimen name="regular_text_size">18sp</dimen>
+</resources>

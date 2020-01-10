@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MultipleButtonsActivity"
+    android:layout_margin="@dimen/root_margin">
+
+    <Button
+        android:id="@+id/btn_one"
+        android:text="Button 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorText"
+        android:onClick="handleMultipleButtonsClick"/>
+
+    <Button
+        android:id="@+id/btn_two"
+        android:text="Button 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="@dimen/view_margin"
+        android:onClick="handleMultipleButtonsClick"/>
+
+    <Button
+        android:id="@+id/btn_three"
+        android:text="Button 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="@dimen/view_margin"
+        android:onClick="handleMultipleButtonsClick"/>
+
+    <Button
+        android:id="@+id/btn_four"
+        android:text="Button 4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="@dimen/view_margin"
+        android:onClick="handleMultipleButtonsClick"/>
+
+
+</LinearLayout>

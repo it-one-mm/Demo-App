@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itonemm.demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".InputControlsActivity"></activity>
+        <activity android:name=".TabActivity" />
+        <activity
+            android:name=".ShapeActivity"
+            android:label="Shape and Selector"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RecieveDataActivity"
+            android:label="Recieve Data"
+            android:parentActivityName=".PassingDataBetweenActivities" />
+        <activity
+            android:name=".MultipleButtonsActivity"
+            android:label="Multiple Buttons"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PassingDataBetweenActivities"
+            android:label="Passing Data Between Activities"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EventActivity"
+            android:label="Button Event"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CircleAreaActivity"
+            android:label="Sum"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

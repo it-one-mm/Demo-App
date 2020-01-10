@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventActivity"
+    android:layout_margin="@dimen/root_margin">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_name_hint" />
+
+        <Button
+            android:id="@+id/btn_greet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Greet"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorText"
+            android:onClick="greet"
+            android:layout_marginLeft="@dimen/root_margin" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Name"
+        android:textSize="@dimen/regular_text_size"/>
+
+</LinearLayout>
