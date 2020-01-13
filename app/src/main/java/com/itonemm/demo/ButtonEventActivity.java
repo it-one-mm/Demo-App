@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class EventActivity extends AppCompatActivity {
+public class ButtonEventActivity extends AppCompatActivity {
 
     EditText etName;
     TextView tvName;
@@ -15,7 +15,7 @@ public class EventActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_event);
+        setContentView(R.layout.activity_button_event);
 
         etName = findViewById(R.id.et_name);
         tvName = findViewById(R.id.tv_name);

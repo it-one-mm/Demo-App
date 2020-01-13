@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ToastyActivity"
+        <activity android:name=".LayoutInflaterActivity"></activity>
+        <activity android:name=".MenuDialogActivity" />
+        <activity
+            android:name=".ToastyActivity"
             android:label="Toasty"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".InputControlsActivity"
             android:label="Input Controls" />
@@ -33,12 +36,12 @@
             android:label="Passing Data Between Activities"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".EventActivity"
+            android:name=".ButtonEventActivity"
             android:label="Button Event"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".CircleAreaActivity"
-            android:label="Sum"
+            android:label="Circle Area"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

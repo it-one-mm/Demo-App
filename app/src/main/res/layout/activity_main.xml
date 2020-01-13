@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button Event"
-        android:onClick="goToEvent"
+        android:onClick="goToButtonEvent"
         android:background="@color/colorPrimary"
         android:textColor="@color/colorText"/>
 
@@ -38,6 +38,24 @@
         android:layout_height="wrap_content"
         android:text="Toasty Library"
         android:onClick="goToToastyActivity"
+        android:layout_marginTop="@dimen/root_margin"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu and Dialog"
+        android:onClick="goToMenuAndDialog"
+        android:layout_marginTop="@dimen/root_margin"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LayoutInflator and View"
+        android:onClick="goToLayoutInflator"
         android:layout_marginTop="@dimen/root_margin"
         android:background="@color/colorPrimary"
         android:textColor="@color/colorText"/>
