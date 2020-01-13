@@ -9,20 +9,20 @@ import android.widget.TextView;
 
 public class ButtonEventActivity extends AppCompatActivity {
 
-    EditText etName;
-    TextView tvName;
+    EditText nameEditText;
+    TextView nameTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_button_event);
 
-        etName = findViewById(R.id.et_name);
-        tvName = findViewById(R.id.tv_name);
+        nameEditText = findViewById(R.id.et_name);
+        nameTextView = findViewById(R.id.tv_name);
     }
 
     public void greet(View view) {
-        String name = etName.getText().toString();
-        tvName.setText(String.format("Welcome %s", name));
+        String name = nameEditText.getText().toString();
+        nameTextView.setText("Welcome " + name);
     }
 }
