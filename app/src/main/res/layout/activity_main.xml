@@ -1,102 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_margin="@dimen/root_margin"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="@dimen/root_margin"
     tools:context=".MainActivity">
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button Event"
-        android:onClick="goToButtonEvent"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"/>
+        android:orientation="vertical">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Circle Area"
-        android:onClick="goToCircleAreaActivity"
-        android:layout_marginTop="@dimen/root_margin"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="goToButtonEvent"
+            android:text="Button Event"
+            android:textColor="@color/colorText" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="One onClick Method for Multiple Buttons"
-        android:onClick="goToMultipleButtonsActivity"
-        android:layout_marginTop="@dimen/root_margin"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorPrimary"
+            android:onClick="goToCircleAreaActivity"
+            android:text="Circle Area"
+            android:textColor="@color/colorText" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Toasty Library"
-        android:onClick="goToToastyActivity"
-        android:layout_marginTop="@dimen/root_margin"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorPrimary"
+            android:onClick="goToMultipleButtonsActivity"
+            android:text="One onClick Method for Multiple Buttons"
+            android:textColor="@color/colorText" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Menu and Dialog"
-        android:onClick="goToMenuAndDialog"
-        android:layout_marginTop="@dimen/root_margin"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorPrimary"
+            android:onClick="goToToastyActivity"
+            android:text="Toasty Library"
+            android:textColor="@color/colorText" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="LayoutInflator and View"
-        android:onClick="goToLayoutInflator"
-        android:layout_marginTop="@dimen/root_margin"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorPrimary"
+            android:onClick="goToMenuAndDialog"
+            android:text="Menu and Dialog"
+            android:textColor="@color/colorText" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Input Controls"
-        android:onClick="goToInputControls"
-        android:layout_marginTop="@dimen/root_margin"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorPrimary"
+            android:onClick="goToLayoutInflator"
+            android:text="LayoutInflator and View"
+            android:textColor="@color/colorText" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Shape and Selector"
-        android:onClick="goToShapeActivity"
-        android:layout_marginTop="@dimen/root_margin"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorPrimary"
+            android:onClick="goToInputControls"
+            android:text="Input Controls"
+            android:textColor="@color/colorText" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Passing Data Between Activities"
-        android:onClick="goToPassingDataBetweenActivities"
-        android:layout_marginTop="@dimen/root_margin"
-        android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorPrimary"
+            android:onClick="goToShapeActivity"
+            android:text="Shape and Selector"
+            android:textColor="@color/colorText" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorPrimary"
+            android:onClick="goToPassingDataBetweenActivities"
+            android:text="Passing Data Between Activities"
+            android:textColor="@color/colorText" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorPrimary"
+            android:onClick="goToListView"
+            android:text="List View"
+            android:textColor="@color/colorText" />
 
 
+        <!--    <Button-->
+        <!--        android:id="@+id/btn_tab"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:text="Tab Experiment"-->
+        <!--        android:onClick="goToTabActivity"-->
+        <!--        android:layout_marginTop="@dimen/root_margin"-->
+        <!--        android:background="@color/colorPrimary"-->
+        <!--        android:textColor="@color/colorText"/>-->
 
-<!--    <Button-->
-<!--        android:id="@+id/btn_tab"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Tab Experiment"-->
-<!--        android:onClick="goToTabActivity"-->
-<!--        android:layout_marginTop="@dimen/root_margin"-->
-<!--        android:background="@color/colorPrimary"-->
-<!--        android:textColor="@color/colorText"/>-->
+    </LinearLayout>
 
-</LinearLayout>
+</ScrollView>

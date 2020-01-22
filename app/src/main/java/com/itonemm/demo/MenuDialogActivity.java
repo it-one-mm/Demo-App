@@ -74,13 +74,13 @@ public class MenuDialogActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.context_edit:
                 displayToast("Edit choice clicked.");
-                return true;
+                break;
             case R.id.context_share:
                 displayToast("Share choice clicked.");
-                return true;
+                break;
             case R.id.context_delete:
                 displayToast("Delete choice clicked.");
-                return true;
+                break;
             default:
                 return super.onContextItemSelected(item);
         }

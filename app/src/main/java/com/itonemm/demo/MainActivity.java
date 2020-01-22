@@ -61,4 +61,8 @@ public class MainActivity extends AppCompatActivity {
     public void goToLayoutInflator(View view) {
         goToActivity(LayoutInflaterActivity.class);
     }
+
+    public void goToListView(View view) {
+        goToActivity(ListViewActivity.class);
+    }
 }
