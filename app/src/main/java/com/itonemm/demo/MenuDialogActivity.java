@@ -80,10 +80,9 @@ public class MenuDialogActivity extends AppCompatActivity {
                 break;
             case R.id.context_delete:
                 displayToast("Delete choice clicked.");
-                break;
-            default:
-                return super.onContextItemSelected(item);
         }
+
+        return super.onContextItemSelected(item);
     }
 
     public void displayAlertDialog(View view) {
