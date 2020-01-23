@@ -34,7 +34,7 @@ public class LayoutInflaterActivity extends AppCompatActivity {
 
         LayoutInflater inflater = getLayoutInflater();
 
-        View view1 = inflater.inflate(R.layout.custom_toast, null, false);
+        View view1 = inflater.inflate(R.layout.custom_toast, null, false); // <LinearLayout>...</L>
         TextView titleTextView = view1.findViewById(R.id.tv_title);
         titleTextView.setText("Welcome from IT ONE MM");
 

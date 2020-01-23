@@ -20,6 +20,6 @@
         android:text="Send"
         android:onClick="sendData"
         android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"/>
+        android:textColor="@color/colorTextWhite"/>
 
 </LinearLayout>

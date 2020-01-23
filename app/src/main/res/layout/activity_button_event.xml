@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:text="Greet"
             android:background="@color/colorPrimary"
-            android:textColor="@color/colorText"
+            android:textColor="@color/colorTextWhite"
             android:onClick="greet"
             android:layout_marginLeft="@dimen/root_margin" />
 

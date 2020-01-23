@@ -14,91 +14,100 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorSecondary"
             android:onClick="goToButtonEvent"
             android:text="Button Event"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorTextWhite" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/root_margin"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorSecondary"
             android:onClick="goToCircleAreaActivity"
             android:text="Circle Area"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorTextWhite" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/root_margin"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorSecondary"
             android:onClick="goToMultipleButtonsActivity"
             android:text="One onClick Method for Multiple Buttons"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorTextWhite" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/root_margin"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorSecondary"
             android:onClick="goToToastyActivity"
             android:text="Toasty Library"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorTextWhite" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/root_margin"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorSecondary"
             android:onClick="goToMenuAndDialog"
             android:text="Menu and Dialog"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorTextWhite" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/root_margin"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorSecondary"
+            android:onClick="goToBottomNavigation"
+            android:text="Bottom Navigation"
+            android:textColor="@color/colorTextWhite" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorSecondary"
             android:onClick="goToLayoutInflator"
             android:text="LayoutInflator and View"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorTextWhite" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/root_margin"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorSecondary"
             android:onClick="goToInputControls"
             android:text="Input Controls"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorTextWhite" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/root_margin"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorSecondary"
             android:onClick="goToShapeActivity"
             android:text="Shape and Selector"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorTextWhite" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/root_margin"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorSecondary"
             android:onClick="goToPassingDataBetweenActivities"
             android:text="Passing Data Between Activities"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorTextWhite" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/root_margin"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorSecondary"
             android:onClick="goToListView"
             android:text="List View"
-            android:textColor="@color/colorText" />
+            android:textColor="@color/colorTextWhite" />
 
 
         <!--    <Button-->

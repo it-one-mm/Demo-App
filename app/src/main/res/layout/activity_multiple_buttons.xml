@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"
+        android:textColor="@color/colorTextWhite"
         android:onClick="handleMultipleButtonsClick"/>
 
     <Button
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"
+        android:textColor="@color/colorTextWhite"
         android:layout_marginTop="@dimen/view_margin"
         android:onClick="handleMultipleButtonsClick"/>
 
@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"
+        android:textColor="@color/colorTextWhite"
         android:layout_marginTop="@dimen/view_margin"
         android:onClick="handleMultipleButtonsClick"/>
 
@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:textColor="@color/colorText"
+        android:textColor="@color/colorTextWhite"
         android:layout_marginTop="@dimen/view_margin"
         android:onClick="handleMultipleButtonsClick"/>
 

@@ -42,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
         goToActivity(MenuDialogActivity.class);
     }
 
+    public void goToBottomNavigation(View view) {
+        goToActivity(BottomNavigationActivity.class);
+    }
+
     public void goToInputControls(View view) {
         goToActivity(InputControlsActivity.class);
     }
