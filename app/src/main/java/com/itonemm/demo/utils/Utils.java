@@ -5,7 +5,9 @@ import android.widget.Toast;
 
 public class Utils {
 
-    public static void displayToast(Context context, Toast toast, String message) {
+    private static Toast toast = null;
+
+    public static void displayToast(Context context, String message) {
         if (toast != null) {
             toast.cancel();
         }

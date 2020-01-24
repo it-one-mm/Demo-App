@@ -94,11 +94,17 @@
 
             <EditText
                 android:layout_width="0dp"
-                android:layout_weight="4"
+                android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:inputType="phone"
                 android:textSize="@dimen/regular_text_size"
                 android:hint="@string/enter_phone_hint"/>
+
+            <Spinner
+                android:id="@+id/spinner_phone_type"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"/>
 
 
         </LinearLayout>
