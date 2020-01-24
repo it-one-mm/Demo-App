@@ -6,18 +6,18 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class ListViewActivity extends AppCompatActivity {
+public class SimpleListViewActivity extends AppCompatActivity {
 
-    String[] friendList = new String[50];
+    String[] friendList = new String[20];
     ListView friendListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_view);
+        setContentView(R.layout.activity_simple_list_view);
 
-        for (int i=0; i<30; i++) {
-            friendList[i] = "Friend #" + i;
+        for (int i=0; i<20; i++) {
+            friendList[i] = "Friend #" + (i + 1);
         }
 
         friendListView = findViewById(R.id.friend_list_view);

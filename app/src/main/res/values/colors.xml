@@ -6,4 +6,6 @@
     <color name="colorLight">#534bae</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="colorTextWhite">#fff</color>
+    <color name="headerTextColor">#202020</color>
+    <color name="accentTextColor">#747474</color>
 </resources>

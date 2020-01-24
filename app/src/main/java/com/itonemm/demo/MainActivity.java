@@ -67,6 +67,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToListView(View view) {
-        goToActivity(ListViewActivity.class);
+        goToActivity(SimpleListViewActivity.class);
+    }
+
+    public void goToCustomListView(View view) {
+        goToActivity(CustomListViewActivity.class);
     }
 }
