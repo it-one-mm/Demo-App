@@ -9,12 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BottomNavigationActivity"
-            android:label="Bottom Navigation"
+        <activity android:name=".CustomListViewActivity"
+            android:label="Custom List View"
             android:parentActivityName=".MainActivity"></activity>
         <activity
-            android:name=".ListViewActivity"
-            android:label="List View"
+            android:name=".BottomNavigationActivity"
+            android:label="Bottom Navigation"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SimpleListViewActivity"
+            android:label="Simple List View"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".LayoutInflaterActivity"
@@ -30,7 +34,8 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".InputControlsActivity"
-            android:label="Input Controls" />
+            android:label="Input Controls"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".TabActivity" />
         <activity
             android:name=".ShapeActivity"

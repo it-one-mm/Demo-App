@@ -82,23 +82,23 @@
             android:text="Input Controls"
             android:textColor="@color/colorTextWhite" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/root_margin"
-            android:background="@color/colorSecondary"
-            android:onClick="goToShapeActivity"
-            android:text="Shape and Selector"
-            android:textColor="@color/colorTextWhite" />
+        <!--        <Button-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="@dimen/root_margin"-->
+        <!--            android:background="@color/colorSecondary"-->
+        <!--            android:onClick="goToShapeActivity"-->
+        <!--            android:text="Shape and Selector"-->
+        <!--            android:textColor="@color/colorTextWhite" />-->
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/root_margin"
-            android:background="@color/colorSecondary"
-            android:onClick="goToPassingDataBetweenActivities"
-            android:text="Passing Data Between Activities"
-            android:textColor="@color/colorTextWhite" />
+        <!--        <Button-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="@dimen/root_margin"-->
+        <!--            android:background="@color/colorSecondary"-->
+        <!--            android:onClick="goToPassingDataBetweenActivities"-->
+        <!--            android:text="Passing Data Between Activities"-->
+        <!--            android:textColor="@color/colorTextWhite" />-->
 
         <Button
             android:layout_width="match_parent"
@@ -106,9 +106,17 @@
             android:layout_marginTop="@dimen/root_margin"
             android:background="@color/colorSecondary"
             android:onClick="goToListView"
-            android:text="List View"
+            android:text="Simple List View"
             android:textColor="@color/colorTextWhite" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorSecondary"
+            android:onClick="goToCustomListView"
+            android:text="Custom List View"
+            android:textColor="@color/colorTextWhite" />
 
         <!--    <Button-->
         <!--        android:id="@+id/btn_tab"-->
