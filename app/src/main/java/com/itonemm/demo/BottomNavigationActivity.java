@@ -8,6 +8,9 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -31,22 +34,23 @@ public class BottomNavigationActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
+                Fragment selectedFragment = null;
+
                 switch (menuItem.getItemId()) {
                     case R.id.menu_home:
-                        fragmentManager.beginTransaction().hide(active).show(homeFrag).commit();
-                        active = homeFrag;
-                        return true;
+                        selectedFragment = homeFrag;
+                        break;
                     case R.id.menu_notificatiions:
-                        fragmentManager.beginTransaction().hide(active).show(notiFrag).commit();
-                        active = notiFrag;
-                        return true;
+                        selectedFragment = notiFrag;
+                        break;
                     case R.id.menu_settings:
-                        fragmentManager.beginTransaction().hide(active).show(settingsFrag).commit();
-                        active = settingsFrag;
-                        return true;
+                        selectedFragment = settingsFrag;
                 }
 
-                return false;
+                fragmentManager.beginTransaction().hide(active).show(selectedFragment).commit();
+                active = selectedFragment;
+                return true;
+
             }
         });
 
