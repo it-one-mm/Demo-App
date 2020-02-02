@@ -40,7 +40,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
 
         productListRecyclerView = findViewById(R.id.rv_product_list);
 
-        LinearLayoutManager layoutManager = new LinearLayoutManager(getApplicationContext(), RecyclerView.VERTICAL, false);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this, RecyclerView.VERTICAL, false);
 
         productListRecyclerView.setLayoutManager(layoutManager);
 
