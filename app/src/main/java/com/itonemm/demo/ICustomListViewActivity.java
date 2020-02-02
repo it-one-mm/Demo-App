@@ -28,7 +28,7 @@ public class ICustomListViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_icustom_list_view);
 
-        for (int i=1; i<=10; i++) {
+        for (int i=1; i<=1000; i++) {
             int red = (int) Math.floor(Math.random() * 256);
             int green = (int) Math.floor(Math.random() * 256);
             int blue = (int) Math.floor(Math.random() * 256);

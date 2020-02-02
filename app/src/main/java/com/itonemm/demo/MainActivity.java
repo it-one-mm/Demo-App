@@ -73,4 +73,12 @@ public class MainActivity extends AppCompatActivity {
     public void goToCustomListView(View view) {
         goToActivity(CustomListViewActivity.class);
     }
+
+    public void goToICustomListView(View view) {
+        goToActivity(ICustomListViewActivity.class);
+    }
+
+    public void goToRecyclerView(View view) {
+        goToActivity(RecyclerViewActivity.class);
+    }
 }

@@ -118,6 +118,24 @@
             android:text="Custom List View"
             android:textColor="@color/colorTextWhite" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorSecondary"
+            android:onClick="goToICustomListView"
+            android:text="Custom List View with View Holder"
+            android:textColor="@color/colorTextWhite" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/root_margin"
+            android:background="@color/colorSecondary"
+            android:onClick="goToRecyclerView"
+            android:text="Recycler View"
+            android:textColor="@color/colorTextWhite" />
+
         <!--    <Button-->
         <!--        android:id="@+id/btn_tab"-->
         <!--        android:layout_width="match_parent"-->
