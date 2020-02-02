@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CustomListViewActivity"
-            android:label="Custom List View"
+        <activity android:name=".ICustomListViewActivity"
+            android:label="Custom List View with View Holder"
             android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".CustomListViewActivity"
+            android:label="Custom List View"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".BottomNavigationActivity"
             android:label="Bottom Navigation"
